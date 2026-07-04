@@ -46,6 +46,23 @@ metadata:
 - [ ] 检查实践学分是否≥总学分20%
 - [ ] 检查数学与自然科学类是否≥总学分15%
 
+## 多电脑同步
+
+项目已通过 Git 管理，记忆文件存放在项目目录 `.claude-memory/` 中。
+
+**本机配置：**
+- `~/.claude/projects/-Users-seansun/memory` → 软链接 → `.claude-memory/`
+- Git 用户：`Sean Sun`
+
+**另一台电脑配置步骤：**
+1. `git clone <remote-url> ~/work/assistant\ folder`
+2. 在该目录下启动一次 Claude Code，让系统在 `~/.claude/projects/` 下自动生成项目目录
+3. `rm -rf ~/.claude/projects/-Users-<新用户名>/memory`
+4. `ln -s ~/work/assistant\ folder/.claude-memory ~/.claude/projects/-Users-<新用户名>/memory`
+5. 之后每次工作前 `git pull`，结束后 `git add -A && git commit && git push`
+
+如果另一台电脑遇到问题，直接告诉 Claude Code 这个项目名称（2026版通信工程培养方案），它会从 `.claude-memory/` 中加载上下文。
+
 ## 2024版标准关键变化速查
 
 | 编号 | 毕业要求 | vs旧版 |
