@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+
+# Office temp files
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+~$*.pptx
+
+# Python
+__pycache__/
+*.pyc
