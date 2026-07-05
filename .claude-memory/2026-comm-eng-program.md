@@ -13,7 +13,9 @@ metadata:
 
 ## 工作目录
 
-所有文件位于 `/Users/seansun/work/assistant folder/`。
+- **本机（Mac Studio）**：`/Users/sean/sichuan-nu-comm-eng-2026/`
+- **另一台电脑（Sean's Mac）**：`/Users/seansun/work/assistant folder/`
+- 通过 GitHub 仓库 `sunsslucky/sichuan-nu-comm-eng-2026` 同步
 
 ## 关键源文件
 
